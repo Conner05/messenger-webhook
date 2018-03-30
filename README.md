@@ -13,4 +13,4 @@ __** NOTE that the `verify_token` query parameter cooresponds to the token refer
 You can find Facebook's documentation of a Node.js implementation here: https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup
 
 ## PUBLISHING
-For security purposes, be sure to change the verify token when publishing to a server.
+For security purposes, be sure to change the `Token` value in `appsettings.json` or, better yet, set the value on the server, as I have done in the `appsettings.json` file with `__TOKEN__`, when publishing to a server
